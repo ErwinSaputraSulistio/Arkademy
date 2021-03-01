@@ -1,0 +1,24 @@
+1.) Mulai.
+2.) Masukkan input angka yang akan di proses.
+3.) Buat sebuah perkondisian apakah tipe data dari parameter "num" bukanlah angka (Integer).
+4.) Jika ya, maka akan keluar kalimat output yang memberitahukan kita,
+bahwa input parameter "num" harus berupa angka dan tidak boleh kosong.
+5.) Jika tidak, maka akan lanjut menjalankan kode berikutnya.
+6.) Buat sebuah variabel bernama "numArray",
+yang isinya mengubah input data yang awalnya bertipe data Integer menjadi String,
+lalu di bagi menjadi beberapa kelompok yang pembagiannya di batasi oleh angka nol,
+dan hasil pembagian kelompok akan ditampung dalam bentuk Array.
+7.) Buat sebuah variabel kosong bernama "sortedNum",
+yang ke depannya akan digunakan sebagai tempat penampungan data yang sudah di olah.
+8.) Buat sebuah variabel bernama "i" yang berisikan nomor indeks yang dimulai dari nol.
+9.) Buat sebuah perulangan (looping) dengan sebuah perkondisian,
+selama nomor indeks "i" masih dibawah total panjang "numArray",
+maka satu-persatu kelompok berdasarkan urutan "i" di dalam "numArray" akan di pecah lagi, 
+lalu di sortir dengan urutan angka berurut dari yang paling kecil ke yang paling besar, 
+lalu hasil sortiran akan di tampung ke dalam variabel "sortedNum".
+10.) Buat sebuah variabel bernama "finalOutput" yang isinya berupa perintah,
+untuk menggabungkan seluruh angka yang sudah di sortir di dalam variabel "sortedNum",
+lalu kita konversikan tipe datanya menjadi Integer.
+11.) Cetak variabel finalOutput, maka akan keluar output angka yang telah di proses.
+12.) Selesai.
+
