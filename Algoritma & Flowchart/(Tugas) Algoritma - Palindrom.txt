@@ -1,0 +1,22 @@
+1.) Mulai.
+2.) Buatlah sebuah variabel kosong baru bernama "hasil", 
+nantinya variabel kosong ini akan menyimpan input kata yang sudah dibalik dengan looping.
+3.) Buatlah sebuah variabel baru bernama "teks" yang berisi sebuah input kata.
+4.) Buatlah sebuah variabel baru bernama "i", yang isinya adalah panjang total teks dikurang satu, 
+alasan dikurang satu dikarenakan didalam bahasa komputer, menghitung panjang (misalnya 'length') dimulai dari hitungan satu, 
+sedangkan untuk perhitungan nomor indeks dimulai dari nol, 
+jadi kita kurangi agar sesuai dengan urutan nomor indeks (dari perhitungan yang dimulai dari 1,2,3 dikurang satu menjadi 0,1,2), 
+yang nantinya akan jadi acuan saat looping untuk membalikkan input kata dari teks. Jika tidak dikurangi sesuai dengan nomor indeks, 
+maka akan ada error saat proses ketujuh, akan menyebabkan adanya satu "undefined" atau tidak terdefinisi,
+dikarenakan mencoba menghitung indeks number menggunakan urutan biasa(menghitung urutan indeks number 0,1,2 dengan urutan biasa 1,2,3).
+5.) Buatlah sebuah looping baru dengan perkondisian "selama variabel 'i' masih diatas atau sama dengan nol", maka looping akan terus terjadi.
+6.) Jika kondisinya "ya" atau "true", maka akan menambahkan sebuah huruf yang diambil dari variabel "teks", 
+dimana urutan huruf yang diambil berdasarkan nomor indeks/"i", 
+kedalam variabel kosong "hasil", dan nilai "i" akan dikurang satu di-setiap looping terjadi.
+7.) Namun jika kondisinya "tidak" atau "false", maka looping akan dihentikan, dan akan lanjut ke-perkondisian berikutnya.
+8.) Sekarang buatlah sebuah perkondisian baru yang membandingkan apakah variabel "teks" sama dengan variabel "hasil", 
+yang sudah terisi susunan huruf dari hasil looping sebelumnya.
+9.) Jika kondisinya "ya" atau "true", maka akan menghasilkan ouput "palindrom".
+10.) Namun jika kondisinya "tidak" atau "false", maka akan menghasilkan output "bukan palindrom".
+11.) Selesai.
+

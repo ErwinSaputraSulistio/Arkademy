@@ -1,0 +1,18 @@
+1.) Mulai.
+2.) Buatlah sebuah variabel kosong baru bernama "terbalik", nantinya variabel kosong ini akan menyimpan input kalimat yang sudah dibalik dengan looping.
+3.) Buatlah sebuah variabel baru bernama "kalimat" yang berisi sebuah input kalimat (misal kalimatnya "Saya adalah Erwin").
+4.) Buatlah sebuah variabel baru bernama "pisah", yang isinya adalah perintah untuk memecah input kalimat(Saya adalah Erwin) dari variabel "kalimat", 
+menjadi beberapa kata-kata (Saya, adalah, Erwin) kedalam variabel Array "pisah".
+5.) Buatlah sebuah variabel baru bernama "i", yang isinya adalah total banyak kalimat dalam variabel "pisah" dikurang satu, 
+alasan dikurang satu dikarenakan didalam bahasa komputer, menghitung panjang (misalnya 'length') dimulai dari hitungan satu, 
+sedangkan untuk perhitungan nomor indeks dimulai dari nol, 
+jadi kita kurangi agar sesuai dengan urutan nomor indeks (dari perhitungan yang dimulai dari 1,2,3 dikurang satu menjadi 0,1,2), 
+yang nantinya akan jadi acuan saat looping untuk membalikkan pecahan kata-kata dari variabel "pisah". 
+Jika tidak dikurangi sesuai dengan nomor indeks, maka akan ada error saat proses ketujuh, akan menyebabkan adanya satu "undefined" atau tidak terdefinisi,
+dikarenakan mencoba menghitung indeks number menggunakan urutan biasa(menghitung urutan indeks number 0,1,2 dengan urutan biasa 1,2,3).
+6.) Buatlah sebuah looping baru dengan perkondisian "selama variabel 'i' masih diatas atau sama dengan nol", maka looping akan terus terjadi.
+7.) Jika kondisinya "ya" atau "true", maka akan menambahkan sebuah kalimat yang diambil dari variabel Array "pisah", 
+dimana urutan kalimat yang diambil berdasarkan nomor indeks/"i", kedalam variabel kosong "terbalik", 
+dan nilai "i" akan dikurang satu di-setiap looping terjadi.
+8.) Namun jika kondisinya "tidak" atau "false", maka looping akan dihentikan, dan akan menghasilkan output "Erwin adalah Saya".
+9.) Selesai.
